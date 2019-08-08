@@ -6,12 +6,14 @@ The name of MediBloc’s mainnet is Panacea and it means “a remedy for all ill
 ## Panacea’s Consensus Mechanism
 Panacea blockchain uses DPOS(Delegated Proof of Stake) consensus mechanism with PBFT(Practical Byzantine Fault Tolerance) algorithm. In DPOS consensus mechanism with PBFT algorithm, validators(block producers), that are decided by votes of network participants, efficiently produce new blocks at a high speed while synchronizing the blocks. In Panacea, the group that validates and produces blocks are called Validators and when they successfully fulfill their duties as validators they are rewarded with MED mainnet coin based on the number of votes they received as an incentive. Those with MED mainet coins that are not selected as validators can vote for validators, contribute in block validating process and receive incentives after each block creation is completed. 
 
+ ![Image of Simplified Panacea Architecture](https://github.com/medibloc/whitepaper/blob/master/Simplified%20Panacea%20Architecture.png) 
+
 ## Features of Panacea’s consensus mechanism
-Slashing
+### Slashing
 
 Panacea utilizes PBFT algorithm and this algorithm is special for its ability to filter out insincere validator. If a validator does not validate block faithfully or acts maliciously, the staked coins of the validator and the voters will be slashed. In other words, voters role of choosing a right validator is as important as validators role of acting faithfully. As a result, the voters are motivated to vote for suited validators and, ultimately, lead virtuous cycle of the blockchain. This algorithm and method will upgrade data validation, security and reliability that are required for a successful medical blockchain and will be the forte of Panacea.
 
-One Block Finality
+### One Block Finality
 
 Panacea’s one block finality mechanism complements weak spots of existing blockchain. Existing blockchains use “First - block production and then - consensus” mechanism that are exposed to various risk of malicious attack, Panacea uses one block finality mechanism, which is “First - consensus and then - block production”, that yields 100% reliable consensus mechanism. With this feature, there will never be any forks. 
 
