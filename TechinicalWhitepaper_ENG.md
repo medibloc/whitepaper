@@ -30,8 +30,13 @@ In MediBloc platform, health information/data are managed in the form of Merkle 
 Through Panacea, data is managed by the data owners and the owners can safely update, send, utilize, and record the hash value of the health information.Many problems that patients face these days will be cured and improved through Panacea and patient’s healthcare experience will be reinvented. 
 
 All the activities on Panacea could be checked through transactions(In case of personal health information, only the hash value will be stored)
+
 Supporting the collection of patients’ health information from websites, mobile applications, etc. 
+
 Receiving patients’ consents to utilize their health information
+
 Empowering patients to have control over the collected health information
+
 Allowing healthcare companies and medical institutions to trust patient managed data
+
 Enabling the utilization of patient-consented data
