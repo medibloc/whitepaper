@@ -9,6 +9,6 @@
 ## 패너시어 합의방식(Panacea Consensus Mechanism)
 패너시어 블록체인은 DPOS(Delegated Proof of Stake, 위임지분증명)에 PBFT(Practical Byzantine Fault Tolerance, 프랙티컬 비잔틴 장애 허용) 알고리즘을 활용해 구축된 블록체인입니다. DPOS 방식에서는 사용자들의 투표로 결정된 블록생성자가 효율적으로 블록 동기화를 하면서 빠른 속도로 새 블록을 생성합니다. 패너시어는 PBFT방식으로 구현한 DPOS 방식을 채택하여 노드를 구성합니다. 
 
-| ![Image of Simplified Panacea Architecture](https://github.com/medibloc/whitepaper/blob/master/Simplified%20Panacea%20Architecture.png) |
+ ![Image of Simplified Panacea Architecture](https://github.com/medibloc/whitepaper/blob/master/Simplified%20Panacea%20Architecture.png) 
 
 패너시어에서 노드로 선정되어 블록검증과 블록생성을 수행하는 집단을 검증자(Validator 이하 검증자)라고 지칭하며, 검증자는 검증자로서 역할을 수행할 시 MED 메인넷 코인을 득표 비율만큼 보상으로 지급받습니다. 검증자로 채택되지 못한 MED 메인넷 코인 보유자는 본인의 MED 메인넷 코인으로 검증자에게 투표를 하여 블록 확정프로세스에 기여하고 블록 생성 완료마다 보상을 받습니다. 
